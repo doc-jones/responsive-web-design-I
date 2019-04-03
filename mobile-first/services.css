@@ -95,7 +95,6 @@ header nav a:hover {
 header .logo {
     margin: 28px 0 0 91px;
 }
-/* End Header Styles */
 
 /* Call To Action (CTA) Styles */
 
@@ -130,8 +129,6 @@ header .logo {
     background: black;
     color: white;
 }
-/* End CTA Styles */
-
 
 /* Main Content Styles */
 
@@ -160,62 +157,54 @@ header .logo {
 .main-content .bottom-content p {
     padding-right: 20px;
 }
-/* End Main Content Styles */
 
 /* Contact Styles */
 
 .contact p {
     margin: 15px 0;
 }
-/* End Contact Styles */
-
 
 /* Footer Styles */
 
 footer {
     text-align: center;
     margin: 40px 0 20px;
-    border: 1px solid purple;
 }
-/* End Footer Styles */
 
 
 /* Services Styles */
 
-.page-content {
+.services-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     line-height: 1.3;
-    margin: 0 20px;
 }
 
-.page-content .services-header-img {
-    width: 100%;
+.services-content .services-header-img {
     margin: 20px 0;
 }
 
-.page-content h2 {
+.services-content h1 {
     font-size: 26px;
-
+    margin: 10px 0;
 }
 
-.page-content .services-text {
+.services-content .services-text {
  border-bottom: 1px solid black;
  padding-bottom: 40px;
- margin-bottom: 20px;
- width: 90%;
+ margin-bottom: 20px
 }
 
-.page-content .card {
+.services-content .card {
     padding: 20px;
     border: 1px solid black;
-    width: 45%;
+    width: 420px;
     background: whitesmoke;
-    margin: 20px 20px;
+    margin: 20px 0;
 }
 
-.page-content .card button {
+.services-content .card button {
     padding: 10px 40px;
     margin-top: 20px;
     cursor: pointer;
@@ -224,45 +213,41 @@ footer {
     border: 1px solid black;
 }
 
-.page-content .card button:hover {
+.services-content .card button:hover {
     background: black;
     color: white;
 } 
 
-.page-content .bottom-content ul {
+.services-content .services-info ul {
     margin: 20px;
 }
 
-.page-content .bottom-content ul li{
+.services-content .services-info ul li{
     list-style: square;
     padding: 5px;
 }
 
-.page-content .bottom-content {
-    width: 100%;
-    border-top: 2px solid black;
-    margin: 20px 0 35px 0;
-    padding-top: 40px; 
+.services-content .services-info {
     display: flex;
     flex-wrap: wrap;
+    border-top: 2px solid black; 
+    margin: 20px 0 35px 0;
+    padding-top: 40px; 
 }
 
-.page-content .bottom-content .facts {
-    width: 49.5%;
-    margin: 0 60px 20px 0;
+.services-content .services-info .facts {
+  width: 400px;
+  margin: 0 60px 20px 0;
 }
 
-.page-content .bottom-content .facts p {
-    width: 49.5%
-    margin-bottom: 20px;
+.services-content .services-info .facts p {
+  margin-bottom: 20px;
 }
 
-.page-content .bottom-content .services-info-img {
+.services-content .services-info .services-info-img {
   width: 420px;
   height: 300px;
 }
-/* End Services Styles */
-
 
 /* Tablet */
 @media (max-width: 800px) {
@@ -283,7 +268,6 @@ footer {
     header .logo {
         order: -1;
         display: block;
-        float: right;
         margin: 30px auto 0;
     }
 
@@ -308,15 +292,13 @@ footer {
     }
 
     .text-content {
-        margin: 0 5%;
+        margin: 0 10px;
     }
 
     .contact {
         margin: 0 30px;
     }
 }
-
-/* End Tablet */
 
 /* Phone */
 @media (max-width: 500px) {
@@ -383,165 +365,3 @@ footer {
         margin: 20px;
     }
 }
-/* End Phone */
-
-/* Services Tablet */
-
-@media (max-width: 800px) {
-
-    .container {
-        width: 100%;
-    }
-
-    header {
-        flex-wrap: wrap;
-    }
-  
-    header nav {
-        width: 768px;
-        padding: 0 30px;
-        margin-bottom: 30px;
-    }
-
-    header .logo {
-        order: -1;
-        display: block;
-        float: right;
-        margin: 30px auto 0;
-    }
-
-    .page-content {
-        flex-wrap: wrap;
-        justify-content: space-between;
-        line-height: 1.3;
-    }
-
-    .page-content .services-header-img {
-        width: 100%;
-        height: auto;
-        margin-bottom: 20px;
-    }
-
-    .page-content h2 {
-        font-size: 24px;
-        margin: 10px 0;
-    }
-
-    .page-content .services-text {
-        border-bottom: 1px solid black;
-        margin-top: 40px;
-        padding-top: 20px;
-        padding-bottom: 40px;
-        margin-bottom: 20px;
-       }
-
-       .page-content .card {
-        padding: 20px;
-        border: 1px solid black;
-        width: 360px;
-        background: whitesmoke;
-        margin: 20px 0;
-    }
-    
-    .page-content .card button {
-        padding: 10px 40px;
-        margin-top: 20px;
-        cursor: pointer;
-        background: white;
-        border-radius: 5px;
-        border: 1px solid black;
-    }
-    
-    .page-content .card button:hover {
-        background: black;
-        color: white;
-    } 
-    
-    .page-content .bottom-content {
-        display: flex;
-        flex-wrap: wrap;
-        border-top: 2px solid black; 
-        margin: 20px 0 35px 0;
-        padding-top: 40px;
-    }
-
-    .page-content .bottom-content .facts ul {
-        margin: 20px;
-    }
-    
-    .page-content .bottom-content .facts ul li{
-        list-style: square;
-        padding: 5px;
-    }
-    
-    .page-content .bottom-content .facts {
-      width: 360px;
-      margin: 0 60px 20px 0;
-    }
-    
-    .page-content .bottom-content .facts p {
-      margin-bottom: 20px;
-    }
-    
-    .page-content .bottom-content .services-info-img {
-      width: 280px;
-      height: 200px;
-    }
-}
-/*  End Services Tablet */
-
-/* Services Phone */
-
-@media (max-width: 500px) {
-
-    header {
-        justify-content: center;
-    }
-
-    header nav {
-        width: 100%;
-        flex-direction: column;
-        margin: 0;
-        padding: 0;
-    }
-
-    header nav a {
-        width: 100%;
-        display: block;
-        text-align: center;
-        padding: 20px 0;
-        font-size: 20px;
-        border-bottom: 1px solid gray;
-    }
-
-    header nav a:first-child {
-        border-top: 1px solid gray;
-    }
-
-    header nav a:hover {
-        background: gray;
-    }
-
-    header .logo {
-        margin: 20px 0;
-    }
-
-    .page-content {
-        flex-direction: column;
-        justify-content: center;
-        height: auto;
-    }
-
-    .page-content .bottom-content {
-        height: auto;
-    }
-
-    .text-content {
-        margin: 0;
-    }
-
-    .contact {
-        margin: 20px;
-    }
-}
-/*  End Services Phone */
