@@ -95,7 +95,7 @@ header nav a:hover {
 header .logo {
     margin: 28px 0 0 91px;
 }
-/* End Header Styles */
+/* End Header Styles
 
 /* Call To Action (CTA) Styles */
 
@@ -196,6 +196,7 @@ footer {
 
 .page-content h2 {
     font-size: 26px;
+    margin: 10px 0;
 
 }
 
@@ -203,15 +204,14 @@ footer {
  border-bottom: 1px solid black;
  padding-bottom: 40px;
  margin-bottom: 20px;
- width: 90%;
 }
 
 .page-content .card {
-    padding: 20px;
+    padding: 10px 40px;
+    margin-top: 20px;
     border: 1px solid black;
     width: 45%;
     background: whitesmoke;
-    margin: 20px 20px;
 }
 
 .page-content .card button {
